@@ -1,0 +1,28 @@
+--Comandos Git
+
+--cuando iniciamos x 1er vez en una carpeta
+git init
+git status -s
+git add .
+git commit -m "inicio"
+git config --global user.username "omargyr"
+git config --global user.email "ogironr@uni.pe"
+git branch (punto de partida)
+git remote add origin https://github.com/omargyr/og_prueba_v2.git
+git push -u origin master (subir archivos a gityhub)
+
+--observaciones
+git log (ver lista de commits)
+git reset --hard d6f9d0d (regresar a un commit)
+git remote -v (lista de remotos)
+git remote rm [nombre-remoto] (eliminar remoto)
+pwd (ubicación actual)
+git checkout --[nombre file] (limpia los cambios recientes, que no se hace commit)
+git diff [nombrefile] (para ver los cambios)
+git branch (punto de partida)
+git branch [nombre] (crear un branch)
+git checkout [nombrebranch]
+git clone [direccion]
+
+
+https://github.com/diegosalcedo491995/DataScientistsUNI
