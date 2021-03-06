@@ -23,6 +23,6 @@ git branch (punto de partida)
 git branch [nombre] (crear un branch)
 git checkout [nombrebranch]
 git clone [direccion]
-
+git pull origin   (descarga actualizaciones desde el GitHub)
 
 https://github.com/diegosalcedo491995/DataScientistsUNI
